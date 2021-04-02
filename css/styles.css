@@ -9,8 +9,10 @@
 }
 
 body {
+  background-color: var(--white-color);
+
   color: var(--primary-text-color);
-  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .list-none {
@@ -26,11 +28,11 @@ body {
 }
 .logo {
   color: var(--title-text-color);
-  font-family: 'Raleway', 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma',
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
+  line-height: 1.2;
 }
 .logo > span {
   color: var(--accent-color);
@@ -42,13 +44,12 @@ body {
 
 .contact-header .link {
   color: var(--primary-text-color);
+  line-height: 1.14;
 }
 .nav .link:hover,
 .nav .link:focus,
 .contact-header .link:hover,
-.contact-header .link:focus {
-  color: var(--accent-color);
-}
+.contact-header .link:focus,
 .link.current {
   color: var(--accent-color);
 }
@@ -56,20 +57,20 @@ body {
 /* Buttons */
 .btn {
   background-color: var(--secondary-bg-color);
+
   color: var(--title-text-color);
-  cursor: pointer;
   font-size: 16px;
+  font-family: inherit;
+
+  cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus,
 .btn.primary {
   background-color: var(--accent-color);
+
   color: var(--white-color);
-}
-/* Section title */
-.section-title {
-  color: var(--title-text-color);
-  font-size: 36px;
-  font-weight: 700;
 }
 
 /* Hero */
@@ -79,7 +80,20 @@ body {
 
 .hero .hero-title {
   font-size: 44px;
+  line-height: 1.2;
   color: var(--white-color);
+
+  text-align: center;
+}
+
+/* Section title */
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.14;
+
+  text-align: center;
 }
 
 /* Features */
@@ -91,12 +105,19 @@ body {
   color: var(--title-text-color);
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 1.14;
+}
+
+.features-list .item-text {
+  line-height: 1.71;
 }
 
 /* Team */
 .team {
   background-color: var(--secondary-bg-color);
+
   font-size: 16px;
+  line-height: 1.2;
 }
 
 .team .teammates-item {
@@ -106,16 +127,37 @@ body {
 .team .teammate-name {
   font-weight: 500;
   color: var(--title-text-color);
+
+  text-align: center;
+}
+
+.team .teammate-position {
+  text-align: center;
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* Footer */
 .site-footer {
   background-color: var(--dark-bg-color);
+
+  line-height: 1.71;
+
   color: var(--white-color);
 }
 .site-footer .logo {
   color: var(--white-color);
 }
+
 .site-footer .site-address {
   font-style: normal;
   font-size: 14px;
@@ -124,6 +166,7 @@ body {
 .contact-footer .link {
   color: var(--footer-contact-color);
 }
+
 .contact-footer .link:hover,
 .contact-footer .link:focus {
   color: var(--accent-color);
