@@ -13,6 +13,7 @@ body {
 
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list-none {
@@ -40,6 +41,7 @@ body {
 
 .nav .link {
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contact-header .link {
