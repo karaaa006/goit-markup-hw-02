@@ -12,7 +12,7 @@ body {
   background-color: var(--white-color);
 
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .logo {
   color: var(--title-text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
@@ -157,7 +157,7 @@ body {
   line-height: 1.88;
 }
 
-.filters .btn{
+.filters .btn {
   font-weight: 500;
   line-height: 1.6;
 }
